@@ -51,10 +51,10 @@ namespace GUI
             }
         }
 
-        private void mnuSetting_Click(object sender, EventArgs e)
-        {
-            frmConnectData frm = new frmConnectData();
-            frm.ShowDialog();
-        }
+        //private void mnuSetting_Click(object sender, EventArgs e)
+        //{
+        //    frmConnectData frm = new frmConnectData();
+        //    frm.ShowDialog();
+        //}
     }
 }
