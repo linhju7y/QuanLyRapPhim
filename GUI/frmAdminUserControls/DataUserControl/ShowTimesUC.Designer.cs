@@ -80,7 +80,7 @@
 			// 
 			// btnSearchShowtime
 			// 
-			this.btnSearchShowtime.Image = global::GUI.Properties.Resources.search_icon;
+			//this.btnSearchShowtime.Image = global::GUI.Properties.Resources.search_icon;
 			this.btnSearchShowtime.Location = new System.Drawing.Point(725, 24);
 			this.btnSearchShowtime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.btnSearchShowtime.Name = "btnSearchShowtime";

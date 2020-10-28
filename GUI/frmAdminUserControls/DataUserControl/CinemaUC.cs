@@ -129,5 +129,7 @@ namespace GUI.frmAdminUserControls.DataUserControl
             DeleteCinema(cinemaID);
             LoadCinemaList();
         }
+
+      
     }
 }

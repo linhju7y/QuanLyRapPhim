@@ -80,7 +80,7 @@
 			// 
 			// btnSearchAccount
 			// 
-			this.btnSearchAccount.BackgroundImage = global::GUI.Properties.Resources.search_icon;
+			//this.btnSearchAccount.BackgroundImage = global::GUI.Properties.Resources.search_icon;
 			this.btnSearchAccount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.btnSearchAccount.Location = new System.Drawing.Point(126, 20);
 			this.btnSearchAccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);

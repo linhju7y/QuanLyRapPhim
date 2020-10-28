@@ -14,8 +14,7 @@ namespace GUI.frmAdminUserControls
 
         private void btnScreenTypeUC_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = btnScreenTypeUC.Height;
-            SidePanel.Top = btnScreenTypeUC.Top;
+          
             pnData.Controls.Clear();
             ScreenTypeUC screenTypeUC = new ScreenTypeUC();
             screenTypeUC.Dock = DockStyle.Fill;
@@ -24,8 +23,7 @@ namespace GUI.frmAdminUserControls
 
         private void btnCinemaUC_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = btnCinemaUC.Height;
-            SidePanel.Top = btnCinemaUC.Top;
+            
             pnData.Controls.Clear();
             CinemaUC cinemaUc = new CinemaUC();
             cinemaUc.Dock = DockStyle.Fill;
@@ -34,8 +32,7 @@ namespace GUI.frmAdminUserControls
 
         private void btnGenreUC_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = btnGenreUC.Height;
-            SidePanel.Top = btnGenreUC.Top;
+            
             pnData.Controls.Clear();
             GenreUC genreUc = new GenreUC();
             genreUc.Dock = DockStyle.Fill;
@@ -44,8 +41,7 @@ namespace GUI.frmAdminUserControls
 
         private void btnMovieUC_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = btnMovieUC.Height;
-            SidePanel.Top = btnMovieUC.Top;
+           
             pnData.Controls.Clear();
             MovieUC movieUc = new MovieUC();
             movieUc.Dock = DockStyle.Fill;
@@ -54,8 +50,7 @@ namespace GUI.frmAdminUserControls
 
         private void btnFormatMovieUC_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = btnFormatMovieUC.Height;
-            SidePanel.Top = btnFormatMovieUC.Top;
+           
             pnData.Controls.Clear();
             FormatMovieUC formatMovieUc = new FormatMovieUC();
             formatMovieUc.Dock = DockStyle.Fill;
@@ -64,8 +59,7 @@ namespace GUI.frmAdminUserControls
 
         private void btnShowTimesUC_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = btnShowTimesUC.Height;
-            SidePanel.Top = btnShowTimesUC.Top;
+          
             pnData.Controls.Clear();
             ShowTimesUC showTimesUc = new ShowTimesUC();
             showTimesUc.Dock = DockStyle.Fill;
@@ -74,8 +68,7 @@ namespace GUI.frmAdminUserControls
 
         private void btnTicketsUC_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = btnTicketsUC.Height;
-            SidePanel.Top = btnTicketsUC.Top;
+          
             pnData.Controls.Clear();
             TicketsUC ticketsUc = new TicketsUC();
             ticketsUc.Dock = DockStyle.Fill;

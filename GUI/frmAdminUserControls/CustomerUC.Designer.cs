@@ -296,7 +296,7 @@
             // 
             // btnSearchCus
             // 
-            this.btnSearchCus.BackgroundImage = global::GUI.Properties.Resources.search_icon;
+            //this.btnSearchCus.BackgroundImage = global::GUI.Properties.Resources.search_icon;
             this.btnSearchCus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSearchCus.Location = new System.Drawing.Point(1152, 182);
             this.btnSearchCus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

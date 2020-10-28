@@ -165,7 +165,7 @@
             this.btnConnect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnConnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConnect.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnConnect.Image = global::GUI.Properties.Resources.New_Database_icon;
+            //this.btnConnect.Image = global::GUI.Properties.Resources.New_Database_icon;
             this.btnConnect.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConnect.Location = new System.Drawing.Point(358, 267);
             this.btnConnect.Margin = new System.Windows.Forms.Padding(2);

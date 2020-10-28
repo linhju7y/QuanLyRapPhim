@@ -146,7 +146,7 @@
 			// btnSearchStaff
 			// 
 			this.btnSearchStaff.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.btnSearchStaff.Image = global::GUI.Properties.Resources.search_icon;
+			//this.btnSearchStaff.Image = global::GUI.Properties.Resources.search_icon;
 			this.btnSearchStaff.Location = new System.Drawing.Point(858, 139);
 			this.btnSearchStaff.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.btnSearchStaff.Name = "btnSearchStaff";

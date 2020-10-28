@@ -341,6 +341,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Report.rdlc" />
@@ -375,21 +376,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Apps-Dialog-Shutdown-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LoginIconAppl.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\New-Database-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\search-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Untitled-2_0008_Layer.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
@@ -402,43 +388,37 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Untitled-2_0004_Layer-5.png" />
+    <None Include="Resources\png\001-tasks.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Untitled-2_0003_Layer-6.png" />
+    <None Include="Resources\png\002-settings.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Untitled-2_0000_Layer-9.png" />
+    <None Include="Resources\png\003-profits.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Untitled-2_0001_Layer-8.png" />
+    <None Include="Resources\png\004-presentation.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Untitled-2_0002_Layer-7.png" />
+    <None Include="Resources\png\005-team.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Untitled-2_0005_Layer-4.png" />
+    <None Include="Resources\png\006-tasks-1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Untitled-2_0006_Layer-3.png" />
+    <None Include="Resources\png\007-puzzle.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Untitled-2_0007_Layer-2.png" />
+    <None Include="Resources\png\008-support.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pie-chart.png" />
+    <None Include="Resources\png\009-pencil.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\openfolder_4896.png" />
+    <None Include="Resources\png\poster1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\people-2-512.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\employee-office-staff-3d735bc691173bb5-256x256.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\login_user_profile_account_logout_people_man_human-512.png" />
+    <None Include="Resources\png\Poster-final3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
