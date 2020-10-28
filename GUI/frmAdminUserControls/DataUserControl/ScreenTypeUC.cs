@@ -28,11 +28,7 @@ namespace GUI.frmAdminUserControls.DataUserControl
             txtScreenTypeID.DataBindings.Add("Text", dtgvScreenType.DataSource, "Mã loại màn hình", true, DataSourceUpdateMode.Never);
             txtScreenTypeName.DataBindings.Add("Text", dtgvScreenType.DataSource, "Tên màn hình", true, DataSourceUpdateMode.Never);
         }
-        private void btnShowScreenType_Click(object sender, EventArgs e)
-        {
-            LoadScreenTypeList();
-        }
-
+     
         void InsertScreenType(string id, string name)
         {
             if (ScreenTypeDAO.InsertScreenType(id, name))

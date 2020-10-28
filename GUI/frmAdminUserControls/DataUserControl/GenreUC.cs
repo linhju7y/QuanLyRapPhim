@@ -31,10 +31,7 @@ namespace GUI.frmAdminUserControls.DataUserControl
             txtGenreName.DataBindings.Add("Text", dtgvGenre.DataSource, "Tên thể loại", true, DataSourceUpdateMode.Never);
             txtGenreDesc.DataBindings.Add("Text", dtgvGenre.DataSource, "Mô tả", true, DataSourceUpdateMode.Never);
         }
-        private void btnShowGenre_Click(object sender, EventArgs e)
-        {
-            LoadGenreList();
-        }
+     
 
         void InsertGenre(string id, string name, string desc)
         {

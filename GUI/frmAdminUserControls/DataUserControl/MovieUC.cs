@@ -206,5 +206,7 @@ namespace GUI.frmAdminUserControls.DataUserControl
             DeleteMovie(movieID);
             LoadMovieList();
         }
+
+  
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel33 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnUpdateCinema = new System.Windows.Forms.Button();
             this.btnDeleteCinema = new System.Windows.Forms.Button();
             this.btnInsertCinema = new System.Windows.Forms.Button();
@@ -56,7 +57,6 @@
             this.lblCinemaID = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dtgvCinema = new System.Windows.Forms.DataGridView();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel33.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -79,9 +79,20 @@
             this.panel33.Size = new System.Drawing.Size(1088, 47);
             this.panel33.TabIndex = 10;
             // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(383, 14);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(162, 25);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "PHÒNG CHIẾU";
+            // 
             // btnUpdateCinema
             // 
-            this.btnUpdateCinema.Location = new System.Drawing.Point(145, 355);
+            this.btnUpdateCinema.Location = new System.Drawing.Point(135, 355);
             this.btnUpdateCinema.Name = "btnUpdateCinema";
             this.btnUpdateCinema.Size = new System.Drawing.Size(75, 46);
             this.btnUpdateCinema.TabIndex = 2;
@@ -101,7 +112,7 @@
             // 
             // btnInsertCinema
             // 
-            this.btnInsertCinema.Location = new System.Drawing.Point(26, 355);
+            this.btnInsertCinema.Location = new System.Drawing.Point(13, 355);
             this.btnInsertCinema.Name = "btnInsertCinema";
             this.btnInsertCinema.Size = new System.Drawing.Size(75, 46);
             this.btnInsertCinema.TabIndex = 0;
@@ -127,7 +138,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(333, 471);
             this.panel2.TabIndex = 0;
-            //this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel6
             // 
@@ -338,17 +348,6 @@
             this.dtgvCinema.ReadOnly = true;
             this.dtgvCinema.Size = new System.Drawing.Size(755, 471);
             this.dtgvCinema.TabIndex = 1;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(445, 9);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(162, 25);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "PHÒNG CHIẾU";
             // 
             // CinemaUC
             // 
