@@ -68,11 +68,11 @@
             this.textBox2.BackColor = System.Drawing.SystemColors.Window;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(383, 14);
+            this.textBox2.Location = new System.Drawing.Point(415, 17);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(162, 25);
+            this.textBox2.Size = new System.Drawing.Size(63, 25);
             this.textBox2.TabIndex = 57;
-            this.textBox2.Text = "PHÒNG CHIẾU";
+            this.textBox2.Text = "PHIM";
             // 
             // btnUpLoadPictureFilm
             // 
@@ -87,9 +87,10 @@
             // 
             // btnUpdateMovie
             // 
-            this.btnUpdateMovie.Location = new System.Drawing.Point(496, 198);
+            this.btnUpdateMovie.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateMovie.Location = new System.Drawing.Point(501, 202);
             this.btnUpdateMovie.Name = "btnUpdateMovie";
-            this.btnUpdateMovie.Size = new System.Drawing.Size(75, 46);
+            this.btnUpdateMovie.Size = new System.Drawing.Size(80, 40);
             this.btnUpdateMovie.TabIndex = 2;
             this.btnUpdateMovie.Text = "Sửa";
             this.btnUpdateMovie.UseVisualStyleBackColor = true;
@@ -97,9 +98,10 @@
             // 
             // btnDeleteMovie
             // 
-            this.btnDeleteMovie.Location = new System.Drawing.Point(415, 198);
+            this.btnDeleteMovie.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteMovie.Location = new System.Drawing.Point(415, 202);
             this.btnDeleteMovie.Name = "btnDeleteMovie";
-            this.btnDeleteMovie.Size = new System.Drawing.Size(75, 46);
+            this.btnDeleteMovie.Size = new System.Drawing.Size(80, 40);
             this.btnDeleteMovie.TabIndex = 1;
             this.btnDeleteMovie.Text = "Xóa";
             this.btnDeleteMovie.UseVisualStyleBackColor = true;
@@ -107,9 +109,10 @@
             // 
             // btnAddMovie
             // 
-            this.btnAddMovie.Location = new System.Drawing.Point(334, 198);
+            this.btnAddMovie.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddMovie.Location = new System.Drawing.Point(329, 202);
             this.btnAddMovie.Name = "btnAddMovie";
-            this.btnAddMovie.Size = new System.Drawing.Size(75, 46);
+            this.btnAddMovie.Size = new System.Drawing.Size(80, 40);
             this.btnAddMovie.TabIndex = 0;
             this.btnAddMovie.Text = "Thêm";
             this.btnAddMovie.UseVisualStyleBackColor = true;
@@ -189,7 +192,7 @@
             // 
             this.clbMovieGenre.CheckOnClick = true;
             this.clbMovieGenre.FormattingEnabled = true;
-            this.clbMovieGenre.Location = new System.Drawing.Point(111, 120);
+            this.clbMovieGenre.Location = new System.Drawing.Point(111, 129);
             this.clbMovieGenre.Margin = new System.Windows.Forms.Padding(2);
             this.clbMovieGenre.MultiColumn = true;
             this.clbMovieGenre.Name = "clbMovieGenre";
@@ -281,7 +284,7 @@
             // 
             // txtMovieDesc
             // 
-            this.txtMovieDesc.Location = new System.Drawing.Point(111, 97);
+            this.txtMovieDesc.Location = new System.Drawing.Point(111, 106);
             this.txtMovieDesc.Margin = new System.Windows.Forms.Padding(2);
             this.txtMovieDesc.Multiline = true;
             this.txtMovieDesc.Name = "txtMovieDesc";
@@ -303,7 +306,7 @@
             // 
             this.lblMovieGenre.AutoSize = true;
             this.lblMovieGenre.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMovieGenre.Location = new System.Drawing.Point(41, 116);
+            this.lblMovieGenre.Location = new System.Drawing.Point(42, 128);
             this.lblMovieGenre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMovieGenre.Name = "lblMovieGenre";
             this.lblMovieGenre.Size = new System.Drawing.Size(68, 19);
@@ -336,7 +339,7 @@
             // 
             this.lblMovieDesc.AutoSize = true;
             this.lblMovieDesc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMovieDesc.Location = new System.Drawing.Point(54, 95);
+            this.lblMovieDesc.Location = new System.Drawing.Point(55, 104);
             this.lblMovieDesc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMovieDesc.Name = "lblMovieDesc";
             this.lblMovieDesc.Size = new System.Drawing.Size(55, 19);
@@ -345,7 +348,7 @@
             // 
             // txtMovieName
             // 
-            this.txtMovieName.Location = new System.Drawing.Point(111, 73);
+            this.txtMovieName.Location = new System.Drawing.Point(111, 80);
             this.txtMovieName.Margin = new System.Windows.Forms.Padding(2);
             this.txtMovieName.Name = "txtMovieName";
             this.txtMovieName.Size = new System.Drawing.Size(152, 20);
@@ -355,7 +358,7 @@
             // 
             this.lblMovieName.AutoSize = true;
             this.lblMovieName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMovieName.Location = new System.Drawing.Point(33, 71);
+            this.lblMovieName.Location = new System.Drawing.Point(35, 81);
             this.lblMovieName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMovieName.Name = "lblMovieName";
             this.lblMovieName.Size = new System.Drawing.Size(76, 19);
@@ -364,7 +367,7 @@
             // 
             // txtMovieID
             // 
-            this.txtMovieID.Location = new System.Drawing.Point(111, 49);
+            this.txtMovieID.Location = new System.Drawing.Point(111, 52);
             this.txtMovieID.Margin = new System.Windows.Forms.Padding(2);
             this.txtMovieID.Name = "txtMovieID";
             this.txtMovieID.Size = new System.Drawing.Size(152, 20);
@@ -375,7 +378,7 @@
             // 
             this.lblMovieID.AutoSize = true;
             this.lblMovieID.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMovieID.Location = new System.Drawing.Point(37, 50);
+            this.lblMovieID.Location = new System.Drawing.Point(37, 51);
             this.lblMovieID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMovieID.Name = "lblMovieID";
             this.lblMovieID.Size = new System.Drawing.Size(74, 19);

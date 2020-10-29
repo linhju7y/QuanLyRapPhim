@@ -170,19 +170,12 @@ namespace GUI.frmAdminUserControls.DataUserControl
         }
 
         //Search
-        private void btnSearchShowtime_Click(object sender, EventArgs e)
+  
+
+        private void txtSearchShowtime_TextChanged(object sender, EventArgs e)
         {
             string movieName = txtSearchShowtime.Text;
             showtimeList.DataSource = ShowTimesDAO.SearchShowtimeByMovieName(movieName);
         }
-
-		private void txtSearchShowtime_KeyDown(object sender, KeyEventArgs e)
-		{
-			if (e.KeyCode == Keys.Enter)
-			{
-				btnSearchShowtime.PerformClick();
-				e.SuppressKeyPress = true;//Tắt tiếng *ting của windows
-			}
-		}
-	}
+    }
 }

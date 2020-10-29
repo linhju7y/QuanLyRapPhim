@@ -110,28 +110,36 @@ namespace GUI.frmAdminUserControls
             LoadCustomerList();
         }
 
-        private void btnSearchCus_Click(object sender, EventArgs e)
+        //private void btnSearchCus_Click(object sender, EventArgs e)
+        //{
+        //    string cusName = txtSearchCus.Text;
+        //    customerList.DataSource = CustomerDAO.SearchCustomerByName(cusName);
+        //}
+
+		//private void txtSearchCus_KeyDown(object sender, KeyEventArgs e)
+		//{
+		//	if (e.KeyCode == Keys.Enter)
+		//	{
+		//		btnSearchCus.PerformClick();
+		//		e.SuppressKeyPress = true;//Tắt tiếng *ting của windows
+		//	}
+		//}
+
+        //private void btnSuaTuoi_Click(object sender, EventArgs e)
+        //{
+        //    Form1 frm3 = new Form1();
+        //    if (frm3.ShowDialog() == DialogResult.OK)
+        //    {
+        //        Application.Run(new Form1());
+        //    }
+        //}
+
+        private void txtSearchCus_TextChanged(object sender, EventArgs e)
         {
             string cusName = txtSearchCus.Text;
+            //string cusIdentityCard = txtSearchCus.Text;
             customerList.DataSource = CustomerDAO.SearchCustomerByName(cusName);
-        }
-
-		private void txtSearchCus_KeyDown(object sender, KeyEventArgs e)
-		{
-			if (e.KeyCode == Keys.Enter)
-			{
-				btnSearchCus.PerformClick();
-				e.SuppressKeyPress = true;//Tắt tiếng *ting của windows
-			}
-		}
-
-        private void btnSuaTuoi_Click(object sender, EventArgs e)
-        {
-            Form1 frm3 = new Form1();
-            if (frm3.ShowDialog() == DialogResult.OK)
-            {
-                Application.Run(new Form1());
-            }
+            //customerList.DataSource = CustomerDAO.SearchCustomerByName(cusIdentityCard);
         }
     }
 }

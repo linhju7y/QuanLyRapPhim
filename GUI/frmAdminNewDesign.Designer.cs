@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAdminNewDesign));
-            this.panel1 = new System.Windows.Forms.Panel();
             this.btnRevenueUC = new System.Windows.Forms.Button();
             this.btnAccountUC = new System.Windows.Forms.Button();
             this.btnCustomerUC = new System.Windows.Forms.Button();
@@ -37,23 +36,10 @@
             this.btnStaffUC = new System.Windows.Forms.Button();
             this.pnAdmin = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel1.BackColor = System.Drawing.Color.DarkBlue;
-            this.panel1.Controls.Add(this.btnRevenueUC);
-            this.panel1.Controls.Add(this.btnAccountUC);
-            this.panel1.Controls.Add(this.btnCustomerUC);
-            this.panel1.Controls.Add(this.btnDataUC);
-            this.panel1.Controls.Add(this.btnStaffUC);
-            this.panel1.Location = new System.Drawing.Point(3, 125);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(166, 438);
-            this.panel1.TabIndex = 3;
             // 
             // btnRevenueUC
             // 
@@ -171,10 +157,10 @@
             this.pnAdmin.BackgroundImage = global::GUI.Properties.Resources.Poster_final3;
             this.pnAdmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pnAdmin.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnAdmin.Location = new System.Drawing.Point(174, 11);
+            this.pnAdmin.Location = new System.Drawing.Point(174, 2);
             this.pnAdmin.Margin = new System.Windows.Forms.Padding(2);
             this.pnAdmin.Name = "pnAdmin";
-            this.pnAdmin.Size = new System.Drawing.Size(1049, 539);
+            this.pnAdmin.Size = new System.Drawing.Size(1049, 561);
             this.pnAdmin.TabIndex = 2;
             // 
             // pictureBox1
@@ -187,6 +173,20 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel1.BackColor = System.Drawing.Color.DarkBlue;
+            this.panel1.Controls.Add(this.btnRevenueUC);
+            this.panel1.Controls.Add(this.btnAccountUC);
+            this.panel1.Controls.Add(this.btnCustomerUC);
+            this.panel1.Controls.Add(this.btnDataUC);
+            this.panel1.Controls.Add(this.btnStaffUC);
+            this.panel1.Location = new System.Drawing.Point(3, 125);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(166, 438);
+            this.panel1.TabIndex = 3;
             // 
             // frmAdminNewDesign
             // 
@@ -201,8 +201,8 @@
             this.Name = "frmAdminNewDesign";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin";
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -210,11 +210,11 @@
         #endregion
         private System.Windows.Forms.Button btnDataUC;
         private System.Windows.Forms.Panel pnAdmin;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnAccountUC;
         private System.Windows.Forms.Button btnRevenueUC;
         private System.Windows.Forms.Button btnCustomerUC;
         private System.Windows.Forms.Button btnStaffUC;
+        private System.Windows.Forms.Panel panel1;
     }
 }

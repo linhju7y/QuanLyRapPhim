@@ -21,7 +21,7 @@ namespace GUI.frmAdminUserControls
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            t = int.Parse(txtTuoi.Text);
+            //t = int.Parse(txtTuoi.Text);
             Close();
         }
     }

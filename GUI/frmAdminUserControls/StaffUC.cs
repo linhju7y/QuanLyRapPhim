@@ -111,20 +111,27 @@ namespace GUI.frmAdminUserControls
         }
 
         //Tìm kiếm Staff
-        private void btnSearchStaff_Click(object sender, EventArgs e)
+        //private void btnSearchStaff_Click(object sender, EventArgs e)
+        //{
+        //    string staffName = txtSearchStaff.Text;
+        //    DataTable staffSearchList = StaffDAO.SearchStaffByName(staffName);
+        //    staffList.DataSource = staffSearchList;
+        //}
+
+        //private void txtSearchStaff_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    if (e.KeyCode == Keys.Enter)
+        //    {
+        //        btnSearchStaff.PerformClick();
+        //        e.SuppressKeyPress = true;//Tắt tiếng *ting của windows
+        //    }
+        //}
+
+        private void txtSearchStaff_TextChanged(object sender, EventArgs e)
         {
             string staffName = txtSearchStaff.Text;
             DataTable staffSearchList = StaffDAO.SearchStaffByName(staffName);
             staffList.DataSource = staffSearchList;
-        }
-
-        private void txtSearchStaff_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                btnSearchStaff.PerformClick();
-                e.SuppressKeyPress = true;//Tắt tiếng *ting của windows
-            }
         }
     }
 }

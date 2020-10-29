@@ -150,19 +150,25 @@ namespace GUI.frmAdminUserControls
             LoadAccountList();
         }
 
-        private void btnSearchAccount_Click(object sender, EventArgs e)
+  //      private void btnSearchAccount_Click(object sender, EventArgs e)
+  //      {
+  //          string staffName = txtSearchAccount.Text;
+  //          accountList.DataSource = AccountDAO.SearchAccountByStaffName(staffName);
+  //      }
+
+		//private void txtSearchAccount_KeyDown(object sender, KeyEventArgs e)
+		//{
+		//	if (e.KeyCode == Keys.Enter)
+		//	{
+		//		btnSearchAccount.PerformClick();
+		//		e.SuppressKeyPress = true;//Tắt tiếng *ting của windows
+		//	}
+		//}
+
+        private void txtSearchAccount_TextChanged(object sender, EventArgs e)
         {
             string staffName = txtSearchAccount.Text;
             accountList.DataSource = AccountDAO.SearchAccountByStaffName(staffName);
         }
-
-		private void txtSearchAccount_KeyDown(object sender, KeyEventArgs e)
-		{
-			if (e.KeyCode == Keys.Enter)
-			{
-				btnSearchAccount.PerformClick();
-				e.SuppressKeyPress = true;//Tắt tiếng *ting của windows
-			}
-		}
-	}
+    }
 }

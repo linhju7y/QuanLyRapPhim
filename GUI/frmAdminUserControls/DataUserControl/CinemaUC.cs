@@ -130,6 +130,6 @@ namespace GUI.frmAdminUserControls.DataUserControl
             LoadCinemaList();
         }
 
-      
+  
     }
 }
